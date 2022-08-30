@@ -22,6 +22,9 @@ public class User {
     @Column(nullable = false, unique = true)
     private String userId; // 사용자 아이디
 
+    @Column(nullable = false)
+    private String password;
+
     @Column(nullable = false, unique = true)
     private String email; // 사용자 이메일
 
